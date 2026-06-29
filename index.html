@@ -6,28 +6,24 @@
         body { font-family: Arial, sans-serif; line-height: 1.8; padding: 20px; color: #333; }
         h1 { color: #d1202a; font-size: 3.2em; } 
         h2 { color: #005696; font-size: 2.2em; } 
-        .official-tag { 
-            font-weight: bold; 
-            color: #d1202a; 
-            font-size: 1.6em; 
-            background-color: #fce4e4; 
-            padding: 10px; 
-            border-radius: 5px; 
-        } 
+        .official-tag { font-weight: bold; color: #d1202a; font-size: 1.6em; background-color: #fce4e4; padding: 10px; border-radius: 5px; } 
+        .info { font-size: 1.4em; color: #005696; font-weight: bold; }
         p, ul { font-size: 1.4em; } 
         li { margin-bottom: 10px; }
+        .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
         .contact-btn { 
             display: inline-block; background-color: #d1202a; color: white; 
             padding: 20px 30px; text-decoration: none; border-radius: 8px; 
             font-weight: bold; font-size: 1.4em;
         }
+        .call-btn { background-color: #005696; }
     </style>
 </head>
 <body>
     <h1>Anupama Financial Consultant</h1>
     
-    <!-- HDFC Life ഔദ്യോഗിക സ്ഥിരീകരണം ഇവിടെ ചേർത്തിട്ടുണ്ട് -->
     <p class="official-tag">HDFC Life ഔദ്യോഗിക ഫിനാൻഷ്യൽ കൺസൾട്ടന്റ് (FC)</p>
+    <p class="info">Agency Code: XXXXXXXX</p> <!-- നിങ്ങളുടെ ഏജൻസി കോഡ് ഇവിടെ നൽകുക -->
     
     <p>നിങ്ങളുടെ സുരക്ഷിതമായ ഭാവിക്ക്, എൻ്റെ സഹായം.</p>
     <p>മികച്ച ഇൻഷുറൻസ് പ്ലാനുകളിലൂടെ നിങ്ങളുടെ കുടുംബത്തിന്റെ സാമ്പത്തിക സുരക്ഷ ഉറപ്പാക്കാൻ ഞാൻ നിങ്ങളെ സഹായിക്കുന്നു.</p>
@@ -43,8 +39,13 @@
     </ul>
 
     <h2>Contact</h2>
-    <p>കൂടുതൽ വിവരങ്ങൾക്കും സംശയങ്ങൾക്കും താഴെയുള്ള ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് വാട്സാപ്പിൽ മെസ്സേജ് അയക്കുക.</p>
-    <a href="https://wa.me/918714825718" class="contact-btn">Chat on WhatsApp</a>
+    <p>ഓഫീസ്: ആറ്റിങ്ങൽ | താമസം: വെഞ്ഞാറമൂട്</p>
+    <p>കൂടുതൽ വിവരങ്ങൾക്കും സംശയങ്ങൾക്കും താഴെയുള്ള ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് എന്നെ ബന്ധപ്പെടുക.</p>
+    
+    <div class="btn-group">
+        <a href="https://wa.me/918714825718" class="contact-btn">Chat on WhatsApp</a> <!-- നമ്പർ മാറ്റുക -->
+        <a href="tel:+918593825718" class="contact-btn call-btn">Call Now</a> <!-- നമ്പർ മാറ്റുക -->
+    </div>
 
     <hr>
     <footer>
